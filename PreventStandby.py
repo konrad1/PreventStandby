@@ -2,8 +2,8 @@ import logging
 
 log = logging.getLogger(__name__)
 
-APPNAME = 'Deluge'
-REASON = 'Downloading torrents'
+APPNAME = 'PreventStandby.py'
+REASON = 'manually prevent standby'
 
 class DBusInhibitor:
     def __init__(self, name, path, interface, method=['Inhibit', 'UnInhibit']):
